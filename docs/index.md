@@ -1,3 +1,7 @@
+---
+description: PWN is a universal, peer-to-peer lending platform.
+---
+
 # PWN Explained
 
 [**PWN**](https://pwn.xyz/) **is a universal, peer-to-peer lending platform.**&#x20;
