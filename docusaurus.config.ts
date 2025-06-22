@@ -48,6 +48,12 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/thumbnail.png',
+    metadata: [
+      {
+        name: 'og:image',
+        content: 'img/thumbnail.png',
+      },
+    ],
     navbar: {
       logo: {
         alt: 'PWN Logo',
