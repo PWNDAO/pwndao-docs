@@ -47,59 +47,30 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'PWN Docs',
       logo: {
         alt: 'PWN Logo',
         src: 'img/logo.svg',
+        // src: 'img/logo-white.svg',
+        // srcDark: 'img/logo.svg',
+        style: {
+          height: '30px',
+          paddingRight: '20px',
+        },
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          href: 'https://app.pwn.xyz/',
+          label: 'Try it out!',
+          position: 'right',
         },
         {
-          href: 'https://github.com/pwndao/pwndao-docs',
-          label: 'GitHub',
+          href: 'https://pwn.xyz/',
+          label: 'Website',
           position: 'right',
         },
       ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} PWN. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
