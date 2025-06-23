@@ -6,7 +6,7 @@ const config: Config = {
   title: 'PWN Docs',
   tagline: 'PWN is a universal, peer-to-peer lending platform',
   favicon: 'img/favicon.ico',
-  url: 'https://docs.pwn.xyz',
+  url: process.env.CF_PAGES_URL ?? 'https://docs.pwn.xyz',
   baseUrl: '/',
   organizationName: 'pwndao',
   projectName: 'pwndao-docs',
