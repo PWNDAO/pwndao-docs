@@ -40,6 +40,7 @@ const sidebars: SidebarsConfig = {
             'Guides/other/notifications-on-pwn',
             'Guides/other/incentives',
             'Guides/other/pwns-strategy-vault',
+            'Guides/other/recover',
           ],
         },
         {
