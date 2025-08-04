@@ -37,6 +37,7 @@
   --ifm-heading-font-family: "Screener-Regular";
   --ifm-font-family-monospace: "Supreme-Regular";
   --sidebar-divider-color: #000000;
+  --ifm-navbar-height: 4rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -66,4 +67,25 @@
   margin: 0.75rem
       var(--ifm-menu-link-padding-horizontal);
   background-color: var(--sidebar-divider-color);
+}
+
+.navbar__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navbar__logo {
+  margin-bottom: 5px;
+}
+
+.navbar__title {
+  font-size: 0.75rem;
+  color: var(--ifm-navbar-link-color);
+  line-height: 1;
+  font-family: "Supreme-Regular";
+}
+
+.navbar-sidebar__back {
+  display: none;
 }
